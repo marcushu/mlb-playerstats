@@ -1,0 +1,45 @@
+.career-season {
+    margin: 10px 40px 30px 40px;
+    width: 50%;
+}
+
+.titles {
+    font-weight: lighter;
+    font-size: 28px;
+    font-style: italic;
+    color: rgb(149, 149, 149);
+    margin-bottom: 10px;
+}
+
+.detail-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.detail-labels {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.detail-stats {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: rgb(218, 240, 218);
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    .detail-box {
+      flex-direction: column;
+    }
+
+    .career-season {
+        width: 90%;
+    }
+  }

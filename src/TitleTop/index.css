@@ -1,0 +1,83 @@
+#imagebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#disclaimer {
+    width: 100%;
+    text-align: center;
+    color: #d3d3d3d6;
+    font-size: 13px;
+    padding: 15px 0px;
+    background-color: #000000a3;
+}
+
+#title {
+    color: white;
+}
+
+#selectbox {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#textbox {
+    background-color: #00000070;
+    width: fit-content;
+    border-left: solid rgb(255, 208, 0) 10px;
+    padding: 30px 8% 30px 5%;
+}
+
+#teams {
+    background-color: green;
+    font-family: inherit;
+    letter-spacing: 5px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 58px;
+}
+
+#player {
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #d3d3d3;
+    transform: translate(0px, -20px);
+}
+
+#stats {
+    font-weight: lighter;
+    font-size: 100px;
+}
+
+#mlb {
+    font-family: 'Inria Serif', serif;
+    font-weight: bold;
+    font-size: 140px;
+}
+
+@media only screen and (max-width: 800px) {
+    #teams {
+        width: unset;
+    }
+
+    #mlb {
+        font-size: 90px;
+    }
+
+    #player {
+        font-size: 30px;
+    }
+
+    #stats {
+        font-size: 60px;
+    }
+}

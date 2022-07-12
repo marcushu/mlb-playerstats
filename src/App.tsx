@@ -27,8 +27,10 @@ function App() {
       <div style={{ maxWidth: '1200px', margin: 'auto' }}>
         <Roster teamRoster={teamRoster} />
       </div>
-      <div style={{ padding: '10px', backgroundColor: '#212121', marginTop: '45px', textAlign: 'end'}}>
-        <img src={githubImg} alt="github" />
+      <div style={{ padding: '20px', backgroundColor: '#212121', marginTop: '45px', textAlign: 'end' }}>
+        <a href="https://github.com/marcushu/mlb-playerstats">
+          <img src={githubImg} alt="github" style={{ height: '25px' }} />
+        </a>
       </div>
     </div>
   );

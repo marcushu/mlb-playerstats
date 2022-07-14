@@ -5,9 +5,9 @@ name: Testing
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   cypress-run:
@@ -25,4 +25,3 @@ jobs:
           wait-on: 'http://localhost:3000'
           wait-on-timeout: 160 # seconds
           config: 'baseUrl=http://localhost:3000'
-          
